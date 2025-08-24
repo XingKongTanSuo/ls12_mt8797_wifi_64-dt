@@ -115,5 +115,3 @@ TW_INCLUDE_REPACKTOOLS := true
 TWRP_INCLUDE_CRYPTO := true
 # Use mke2fs for TWRP
 BOARD_USES_MKE2FS := true
-
-include vendor/twrp/Android.mk
