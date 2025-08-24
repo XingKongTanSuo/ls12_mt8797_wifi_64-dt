@@ -111,7 +111,12 @@ TW_SCREEN_BLANK_ON_BOOT := true
 TW_INPUT_BLACKLIST := "hbtp_vm"
 TW_USE_TOOLBOX := true
 TW_INCLUDE_REPACKTOOLS := true
+
+# Inherit from TWRP
+-include vendor/twrp/Android.mk
+
 # TWRP Configuration
 TWRP_INCLUDE_CRYPTO := true
+
 # Use mke2fs for TWRP
 BOARD_USES_MKE2FS := true
