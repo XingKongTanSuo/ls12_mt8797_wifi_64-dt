@@ -24,6 +24,9 @@ PRODUCT_MANUFACTURER := alps
 PRODUCT_GMS_CLIENTID_BASE := android-alps
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="vnd_ls12_mt8797_wifi_64-user 12 SP1A.210812.016 69 release-keys"
+    PRIVATE_BUILD_DESC="vnd_ls12_mt8797_wifi_64-user 12 SP1A.210812.016 69 release-keys" \
+    TARGET_DEVICE=ls12_mt8797_wifi_64 \
+    PRODUCT_NAME=twrp_ls12_mt8797_wifi_64
 
+PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,$(LOCAL_PATH)/recovery/root,recovery/root)
 BUILD_FINGERPRINT := alps/vnd_ls12_mt8797_wifi_64/ls12_mt8797_wifi_64:12/SP1A.210812.016/69:user/release-keys
