@@ -12,6 +12,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit some common Omni stuff.
 $(call inherit-product, vendor/twrp/config/common.mk)
 
+$(call inherit-product, vendor/twrp/Android.mk)
+
 # Inherit from ls12_mt8797_wifi_64 device
 $(call inherit-product, device/alps/ls12_mt8797_wifi_64/device.mk)
 
