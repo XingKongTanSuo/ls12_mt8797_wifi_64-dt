@@ -33,7 +33,7 @@ PRODUCT_PACKAGES += \
     mtk_plpath_utils \
     mtk_plpath_utils.recovery
     
-# Boot control HAL
+# Boot control HAL 仅供参考，请根据实际情况修改
 PRODUCT_PACKAGES += \
     android.hardware.boot@1.2-impl \
     android.hardware.boot@1.2-service \
