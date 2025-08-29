@@ -38,8 +38,8 @@ PRODUCT_PACKAGES += \
     android.hardware.boot@1.2-impl \
     android.hardware.boot@1.2-service \
     android.hardware.boot@1.2.recovery \
-    bootctrl.mt6771 \
-    bootctrl.mt6771.recovery 
+    bootctrl.mt6893 \
+    bootctrl.mt6893.recovery 
 
 PRODUCT_PACKAGES += \
     bootctrl
