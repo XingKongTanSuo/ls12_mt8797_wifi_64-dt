@@ -111,6 +111,7 @@ TW_SCREEN_BLANK_ON_BOOT := true
 TW_INPUT_BLACKLIST := "hbtp_vm"
 TW_USE_TOOLBOX := true
 TW_INCLUDE_REPACKTOOLS := true
+TW_MAX_BRIGHTNESS := 255
 
 # Inherit from TWRP
 -include vendor/twrp/Android.mk
