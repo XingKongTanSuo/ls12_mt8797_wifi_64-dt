@@ -1,8 +1,5 @@
+欢迎您查看我们的仓库！
 
-这是使用**twrpdtgen**生成的TALPAD设备树，我已经使用他成功编译了twrp-12.1
+这个仓库已经过时了，我建议您前往XingKongTanSuo改进的新仓库查看dt
 
-如果你想编译，请使用mka bootimage
-
-嗯嗯嗯嗯嗯这个dt应该已经过时了（其实是我也没啥能力改进）
-
-你可以去XingKongTanSuo的仓库查看改进版
+[点击前往新仓库](https://github.com/XingKongTanSuo/android_device_ls12_mt8797_wifi_64)
