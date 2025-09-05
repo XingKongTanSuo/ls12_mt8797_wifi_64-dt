@@ -1,4 +1,3 @@
-# Android device tree for alps TALIH-PD2 (ls12_mt8797_wifi_64)
 
 ```
 #
